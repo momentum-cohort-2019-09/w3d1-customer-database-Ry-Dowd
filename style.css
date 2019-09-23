@@ -9,7 +9,8 @@
     margin:1rem auto 0;
 }
 img{
-    width:100%
+    width:100%;
+    border-radius:50%;
 }
 .headshot{
     width:80%;
@@ -18,16 +19,24 @@ img{
 .name{
     font-size:1.5rem;
     font-weight: 600;
+    text-transform:capitalize;
 }
 .email{
     font-weight: 200;
     color:grey;
+    padding:.5rem 0;
 }
 .customer{
-    width:25%;
+    width:22.5vw;
     text-align:center;
 }
 .customers{
     display:flex;
     flex-wrap:wrap;
+}
+.address{
+    text-transform:capitalize;
+}
+.history{
+    padding:.5rem 0;
 }
