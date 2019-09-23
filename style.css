@@ -6,15 +6,16 @@
 }
 .main{
     width:90vw;
-    margin:1rem auto 0;
+    margin:1rem auto 2rem;
 }
 img{
     width:100%;
-    border-radius:50% 70%;
+    border-radius:50% 80%;
 }
 .headshot{
     width:80%;
     margin:1rem auto;
+    padding:0 1rem;
 }
 .name{
     font-size:1.5rem;
