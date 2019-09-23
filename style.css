@@ -30,6 +30,8 @@ img{
 .customer{
     width:22.5vw;
     text-align:center;
+    min-width:240px;
+    flex:1 1 0;
 }
 .customers{
     display:flex;

@@ -7,13 +7,13 @@ function customerToHtml(customer) {
                 </div>
                 <div class="customer-info">
                     <div class="name">
-                        ${customer.name.first} ${customer.name.last}
+                        <p>${customer.name.first} ${customer.name.last}</p>
                     </div>
                     <div class="email">
-                        ${customer.email}
+                        <p>${customer.email}</p>
                     </div>
                     <div class="address">
-                        <div>${customer.location.street}</div>
+                        <div><p>${customer.location.street}</p></div>
                         <div>${customer.location.city}, 
                         ${nameToAbbr(customer.location.state)} 
                         ${customer.location.postcode}</div>
